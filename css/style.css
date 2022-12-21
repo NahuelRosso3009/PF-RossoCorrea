@@ -4,5 +4,21 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    /* outline: 2px solid red; */
+    /* outline: 2px solid red;  */
+}
+
+.logo-pegi{
+    width: 80px;
+}
+.logo-crunchy{
+    width: 100px;
+}
+.logo-redes{
+    width: 30px;
+}
+.creditos-footer{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    border-top: 2px;
 }
