@@ -14,9 +14,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light container-fluid bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand mb-4" href="#"><img src="./assets/mv_logo.png" alt="logo" class="w-50"></a>
+        <nav class="navbar navbar-expand-lg container-fluid bg-dark">
+            <div class="container-fluid align-items-center mb-4 ">
+                <a class="navbar-brand" href="#"><img src="./assets/mv_logo.png" alt="logo" class="w-25"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -41,7 +41,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Que estas buscando?" aria-label="Buscar">
+                        <input class="form-control me-2" type="search" placeholder="Que estas buscando?"
+                            aria-label="Buscar">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
@@ -51,9 +52,17 @@
     </header>
 
     <main>
-        <section class="portada">
-            <img src="./assets/gremio-fondo.jpg" alt="portada" class="img-fluid">
-        </section>
+            <section class="container-fluid portada">
+                <div class="row p-5">
+                    <div class="d-flex flex-column align-items-center p-4">
+                        <img src="./assets/mv_logo.png" alt="logo" class="img-fluid w-100">
+                        <img src="./assets/portada titulo.png" alt="portada-titulo" class="img-fluid">
+                    </div>
+                </div>
+
+            </section>
+
+
 
     </main>
 
@@ -65,7 +74,7 @@
                     <img src="./assets/mv_logo.png" alt="logo" class="w-25">
                 </div>
 
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center p-5">
                     <ul class="nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>

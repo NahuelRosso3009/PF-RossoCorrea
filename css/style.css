@@ -10,9 +10,6 @@
 
 
 /* Desarrollo Header */
-.portada{
-    opacity: 70%;
-}
 
 .navbar-nav .nav-link.active,.nav-item .nav-link.active{
     color: #D83C15;
@@ -32,6 +29,23 @@
 } 
 /* ----------------------------------------------------------------------- */
 
+/* Desarrollo Main (Portada) */
+
+.portada{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.096),
+        rgba(0, 0, 0, 0.873)
+    ) 
+    ,url(../assets/fairytail-portada.jpg);
+    background-position: fixed;
+    background-size: cover;
+    opacity: 100%;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
 
 /* Desarrollo Footer */
 .logo-pegi{
