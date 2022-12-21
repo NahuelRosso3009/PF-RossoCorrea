@@ -6,7 +6,34 @@
 
     /* outline: 2px solid red;  */
 }
+/* ----------------------------------------------------------------------- */
 
+
+/* Desarrollo Header */
+.portada{
+    opacity: 70%;
+}
+
+.navbar-nav .nav-link.active,.nav-item .nav-link.active{
+    color: #D83C15;
+}
+
+.navbar-nav .nav-link.disabled, .nav-item .nav-link.disabled{
+    color: grey;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.btn{
+    color: #D83C15;
+    border-color: #D83C15;
+} 
+/* ----------------------------------------------------------------------- */
+
+
+/* Desarrollo Footer */
 .logo-pegi{
     width: 80px;
 }
@@ -22,3 +49,4 @@
     margin-top: 10px;
     border-top: 2px;
 }
+/* ----------------------------------------------------------------------- */
