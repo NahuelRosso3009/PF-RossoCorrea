@@ -2,65 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Playfair Display", "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
 
     /* outline: 2px solid red;  */
 }
+
 /* ----------------------------------------------------------------------- */
 
 
 /* Desarrollo Header */
 
-.navbar-nav .nav-link.active,.nav-item .nav-link.active{
+.navbar-nav .nav-link.active,
+.nav-item .nav-link.active {
     color: #D83C15;
 }
 
-.navbar-nav .nav-link.disabled, .nav-item .nav-link.disabled{
+.navbar-nav .nav-link.disabled,
+.nav-item .nav-link.disabled {
     color: grey;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: white;
 }
 
-.btn{
+.btn {
     color: #D83C15;
     border-color: #D83C15;
-} 
+}
+
 /* ----------------------------------------------------------------------- */
 
 /* Desarrollo Main (Portada) */
 
-.portada{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.096),
-        rgba(0, 0, 0, 0.873)
-    ) 
-    ,url(../assets/fairytail-portada.jpg);
+.portada {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.096),
+            rgba(0, 0, 0, 0.873)), url(../assets/fairytail-portada.jpg);
+    background-position: fixed;
+    background-size: cover;
+    opacity: 100%;
+}
+
+/* Desarrollo contenido main */
+
+main h2 {
+    color: aliceblue;
+    font-family: "Playfair Display", "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
+    background-color: #D83C15;
+    overflow-y: 20px;
+}
+.seccion-ova {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.096),
+            rgba(0, 0, 0, 0.873)), url(../assets/fondo-ova.jpg);
     background-position: fixed;
     background-size: cover;
     opacity: 100%;
 }
 
 
-
 /* ----------------------------------------------------------------------- */
 
 /* Desarrollo Footer */
-.logo-pegi{
+.logo-pegi {
     width: 80px;
 }
-.logo-crunchy{
+
+.logo-crunchy {
     width: 100px;
 }
-.logo-redes{
+
+.logo-redes {
     width: 30px;
 }
-.creditos-footer{
+
+.creditos-footer {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
     border-top: 2px;
 }
+
 /* ----------------------------------------------------------------------- */
