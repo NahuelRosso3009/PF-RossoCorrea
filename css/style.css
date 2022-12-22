@@ -31,8 +31,8 @@
     border-color: #D83C15;
 }
 
-.nav-link{
-color: antiquewhite;
+.nav-link {
+    color: antiquewhite;
 }
 
 /* ----------------------------------------------------------------------- */
@@ -56,6 +56,7 @@ main h2 {
     background-color: #D83C15;
     overflow-y: 20px;
 }
+
 .seccion-ova {
     background-image: linear-gradient(0deg,
             rgba(127, 127, 127, 0.294),
@@ -74,9 +75,9 @@ main h2 {
     opacity: 100%;
 }
 
-.resumen{
+.resumen {
     color: aliceblue;
-    position:relative;
+    position: relative;
 }
 
 .seccion-personajes {
@@ -88,11 +89,11 @@ main h2 {
     opacity: 100%;
 }
 
-.btn{
+.btn {
     background-color: #D83C15;
     color: white;
     font-weight: 200;
-    
+
 }
 
 
@@ -119,3 +120,14 @@ main h2 {
 }
 
 /* ----------------------------------------------------------------------- */
+
+/* Desarrollo PAGINA PERSONAJES */
+
+.personajes {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.873),
+            rgba(127, 127, 127, 0.294)), url(../assets/personajes-fondo.jpg);
+    background-position: fixed;
+    background-size: cover;
+    opacity: 100%;
+}
