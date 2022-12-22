@@ -31,6 +31,10 @@
     border-color: #D83C15;
 }
 
+.nav-link{
+color: antiquewhite;
+}
+
 /* ----------------------------------------------------------------------- */
 
 /* Desarrollo Main (Portada) */
@@ -77,11 +81,18 @@ main h2 {
 
 .seccion-personajes {
     background-image: linear-gradient(0deg,
-            rgba(127, 127, 127, 0.294),
+            rgba(0, 0, 0, 0.873),
             rgba(127, 127, 127, 0.294)), url(../assets/personajes-fondo.jpg);
     background-position: fixed;
     background-size: cover;
     opacity: 100%;
+}
+
+.btn{
+    background-color: #D83C15;
+    color: white;
+    font-weight: 200;
+    
 }
 
 
