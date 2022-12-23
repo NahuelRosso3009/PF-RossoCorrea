@@ -136,3 +136,28 @@ main h2 {
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* ----------------------------------------------------------------------- */
+
+/* Desarrollo PAGINA CONTACTO */
+
+.contacto {
+    background-image: linear-gradient(0deg,
+            rgba(127, 127, 127, 0.114),
+            rgba(127, 127, 127, 0.294)), url(../assets/formulario-fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.formulario{
+    margin-top:100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-style: groove;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+.label{
+    color: aliceblue;
+}
