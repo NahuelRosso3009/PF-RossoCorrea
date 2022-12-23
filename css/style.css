@@ -52,7 +52,7 @@
 
 main h2 {
     color: aliceblue;
-    font-family: "Playfair Display", "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #D83C15;
     overflow-y: 20px;
     box-shadow: 30px 20px 10px 10px black;
@@ -156,8 +156,22 @@ main h2 {
     margin-bottom: 100px;
     padding: 50px;
     border-style: groove;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.821);
 }
 .label{
     color: aliceblue;
+}
+
+.col-form-label, .form-check{
+    color: aliceblue;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* Seccion PAGINA HISTORIA */
+
+.momento{
+    background-color: rgba(240, 248, 255, 0.651);
+    border-radius: 20px;
+    padding: 20px;
 }
