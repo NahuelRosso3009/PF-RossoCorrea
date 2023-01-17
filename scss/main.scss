@@ -8,13 +8,9 @@
 
     /* outline: 2px solid red;  */
 }
-/* ----------------------------------------------------------------------- */
-
-/* VARIABLES */
 
 $color-primario: #D83C15; 
 $color-secundario: aliceblue;
-
 
 /* ----------------------------------------------------------------------- */
 
@@ -49,5 +45,58 @@ $color-secundario: aliceblue;
 .nav-link {
     color: $color-secundario;
 }
+
+
+/* ----------------------------------------------------------------------- *
+/* Desarrollo Index */
+
+main {
+    h2{ 
+        color: $color-secundario;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: $color-primario;
+        overflow-y: 20px;
+        box-shadow: 30px 20px 10px 10px black;}
+    
+}
+
+.portada {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;;
+}
+
+.portada{
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.096),
+            rgba(0, 0, 0, 0.873)), url(../assets/fairytail-portada.jpg);
+            @extend .portada;
+}
+
+.seccion-ova {
+    background-image: linear-gradient(0deg,
+            rgba(127, 127, 127, 0.294),
+            rgba(127, 127, 127, 0.294)), 
+            url(../assets/fondo-ova.jpg);
+    @extend .portada;
+}
+
+.seccion-historia {
+    background-image: linear-gradient(0deg,
+            rgba(127, 127, 127, 0.294),
+            rgba(127, 127, 127, 0.294)), url(../assets/fondo-historia.jpg);
+    @extend .portada;
+}
+
+.seccion-personajes {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.873),
+            rgba(127, 127, 127, 0.294)), url(../assets/personajes-fondo.jpg);
+    @extend .portada;
+}
+
+
+
 
 
