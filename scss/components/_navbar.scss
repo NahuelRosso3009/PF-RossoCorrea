@@ -1,0 +1,28 @@
+.navbar-nav {
+    .nav-link.active {
+        color: $color-primario;
+    }
+
+    .nav-link.disabled {
+        color: grey;
+    }
+}
+
+.nav-item {
+    .nav-link.active {
+        color: $color-primario;
+    }
+
+    .nav-link.disabled {
+        color: grey;
+    }
+}
+
+.navbar-toggler-icon {
+    color: $color-secundario;
+}
+
+.nav-link {
+    color: $color-secundario;
+}
+
