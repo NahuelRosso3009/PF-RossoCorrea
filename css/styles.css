@@ -21,6 +21,14 @@
   color: aliceblue;
 }
 
+.formulario {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 50px;
+  border-style: groove;
+  background-color: rgba(0, 0, 0, 0.821);
+}
+
 /* ----------------------------------------------------------------------- */
 /* Desarrollo Header */
 .navbar-nav .nav-link.active {
@@ -111,11 +119,37 @@ main h2 {
 /* ----------------------------------------------------------------------- */
 /* Desarrollo PAGINA PERSONAJES */
 .personajes {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.873), rgba(127, 127, 127, 0.294)), url(../assets/personajes-fondo.jpg);
+  background-image: linear-gradient(0deg, rgba(127, 127, 127, 0.114), rgba(127, 127, 127, 0.294)), url(../assets/personajes-fondo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Desarrollo PAGINA CONTACTO */
+.contacto {
+  background-image: linear-gradient(0deg, rgba(127, 127, 127, 0.114), rgba(127, 127, 127, 0.294)), url(../assets/formulario-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* ----------------------------------------------------------------------- */
+/* Desarrollo PAGINA HISTORIA */
+.historia {
+  background-image: linear-gradient(0deg, rgba(127, 127, 127, 0.294), rgba(127, 127, 127, 0.294)), url(../assets/fondo-historia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.momento {
+  background-color: rgba(240, 248, 255, 0.651);
+  border-radius: 20px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
