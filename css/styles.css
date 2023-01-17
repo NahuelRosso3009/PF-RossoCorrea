@@ -8,4 +8,35 @@
   /* outline: 2px solid red;  */
 }
 
+/* ----------------------------------------------------------------------- */
+/* VARIABLES */
+/* ----------------------------------------------------------------------- */
+/* Desarrollo Header */
+.navbar-nav .nav-link.active {
+  color: #D83C15;
+}
+.navbar-nav .nav-link.disabled {
+  color: grey;
+}
+
+.nav-item .nav-link.active {
+  color: #D83C15;
+}
+.nav-item .nav-link.disabled {
+  color: grey;
+}
+
+.navbar-toggler-icon {
+  color: aliceblue;
+}
+
+.btn {
+  color: #D83C15;
+  border-color: #D83C15;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
 /*# sourceMappingURL=styles.css.map */

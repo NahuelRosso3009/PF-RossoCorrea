@@ -44,6 +44,7 @@
             rgba(0, 0, 0, 0.096),
             rgba(0, 0, 0, 0.873)), url(../assets/fairytail-portada.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }

@@ -8,3 +8,46 @@
 
     /* outline: 2px solid red;  */
 }
+/* ----------------------------------------------------------------------- */
+
+/* VARIABLES */
+
+$color-primario: #D83C15; 
+$color-secundario: aliceblue;
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Desarrollo Header */
+.navbar-nav{
+    .nav-link.active{
+        color: $color-primario;
+    }
+    .nav-link.disabled{
+        color: grey;
+    }
+}
+
+.nav-item{
+    .nav-link.active{
+        color: $color-primario;
+    }
+    .nav-link.disabled{
+        color: grey;
+    }
+}
+
+.navbar-toggler-icon {
+    color: $color-secundario;
+}
+
+.btn {
+    color: $color-primario;
+    border-color: $color-primario;
+}
+
+.nav-link {
+    color: $color-secundario;
+}
+
+
