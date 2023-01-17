@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", "Times New Roman", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
+  /* outline: 2px solid red;  */
+}
+
+/*# sourceMappingURL=styles.css.map */
