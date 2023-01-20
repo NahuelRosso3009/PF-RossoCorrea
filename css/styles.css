@@ -149,7 +149,7 @@ main h1 {
 }
 
 .contacto {
-  background-image: linear-gradient(0deg, rgba(127, 127, 127, 0.114), rgba(127, 127, 127, 0.294)), url(/assets/wallpaper6.jpg);
+  background-image: linear-gradient(0deg, rgba(127, 127, 127, 0.114), rgba(127, 127, 127, 0.294)), url(../assets/wallpaper6.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
