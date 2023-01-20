@@ -1,18 +1,18 @@
-.seccion-historia {
+.seccion_historia {
     background-image: linear-gradient(0deg,
             rgba(127, 127, 127, 0.294),
             rgba(127, 127, 127, 0.294)), url(../assets/fondo-historia.jpg);
     @include estilo-fondo();
 }
 
-.seccion-personajes {
+.seccion_personajes {
     background-image: linear-gradient(0deg,
             rgba(127, 127, 127, 0.294),
             rgba(127, 127, 127, 0.294)), url(../assets/personajes-fondo.jpg);
     @include estilo-fondo();
 }
 
-.seccion-ova {
+.seccion_ova {
     background-image: linear-gradient(0deg,
             rgba(127, 127, 127, 0.294),
             rgba(127, 127, 127, 0.294)), url(../assets/fondo-ova.jpg);
